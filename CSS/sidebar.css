@@ -1,0 +1,23 @@
+.sidebar {
+  position: fixed; top: 65px; bottom: 0; width: 230px; background-color: white;
+  left: 0; z-index: 2000;
+} 
+.part {
+  border-bottom-color: rgb(231, 230, 230); border-bottom-width: 1px;
+  border-bottom-style: solid; margin-left: 12px; margin-right: 12px;
+  padding-bottom: 10px;
+}
+.buttons-of-icons {
+  display: flex; height: 40px; margin-bottom: 1px; margin-right: 0px;
+  align-items: center; justify-content: start; padding-left: 14px;
+  cursor: pointer; margin-left: 0px; margin-top: 0;
+}
+.buttons-of-icons:hover {
+  background-color: rgb(240, 238, 238); border-radius: 10px;
+}
+.buttons-of-icons div {
+  font-family: Roboto, Arial; font-size: 14px; margin-top: 0px;
+}
+.icons {
+  width: 20px; margin-right: 29px;
+}
